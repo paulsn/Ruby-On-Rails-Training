@@ -1,7 +1,10 @@
 FirstApp::Application.routes.draw do
-  resources :user1s
+  resources :microposts
 
-  resources :users
+  resources :people
+
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
