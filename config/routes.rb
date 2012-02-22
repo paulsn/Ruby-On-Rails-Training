@@ -1,4 +1,8 @@
 FirstApp::Application.routes.draw do
+  get "pages/Home"
+
+  get "pages/Contact"
+
   resources :microposts
 
   resources :people
